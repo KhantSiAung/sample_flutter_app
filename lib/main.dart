@@ -124,6 +124,6 @@ class MyClass extends StatefulWidget {
 class _MyClassState extends State<MyClass> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const Placeholder(color: Colors.red,);
   }
 }
